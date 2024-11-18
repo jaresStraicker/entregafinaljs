@@ -155,6 +155,7 @@ function agregarAlCarrito(id) {
                     gravity: "bottom",
                     backgroundColor: "linear-gradient(90deg, rgba(191,24,22,1) 0%, rgba(196,143,66,1) 49%)"
                     
+                    
                     }).showToast();
     
             } else {
@@ -167,7 +168,8 @@ function agregarAlCarrito(id) {
                     duration: 3000,
                     gravity: "bottom",
 
-                    backgroundColor: "linear-gradient(90deg, rgba(191,24,22,1) 0%, rgba(196,143,66,1) 49%)",
+                    backgroundColor: "linear-gradient(90deg, rgba(191,24,22,1) 0%, rgba(196,143,66,1) 49%)"
+                    
 
                     
 
