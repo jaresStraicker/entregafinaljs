@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/estyle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <title>Document</title>
 </head>
 <body>
 
-    <div id="productos-container" class="productos-container"></div>
+    <div id="card-container"></div>
 
     <!-- Icono del carrito -->
     <div id="carrito-icono" class="carrito-icono">
@@ -18,64 +20,23 @@
     <div id="container-card"></div>
 
     <header>
-
-        <div id="container-header">
-            <img src="/img/logo.png" alt="SelfLoG">
-            <h1>
-                Titulo
-            </h1>
-
+       
+        <div
+        class="logo">
+        <img src="images/profile/channels4_profile.jpg" alt="Logo-SelfLoG.jpg" class="logo-selflog">
+        <h1 class="inicio-logo"><a href="/index.html">SelfLoG</a></h1>
         </div>
-        <nav class="containerNav">
-            <ul class="container-list">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Categorias</a></li>
-                <li><a href="#">Carrito</a></li>
-            </ul>
-        </nav>     
+        <!-- <div id = "carritoICono">
+        
+        </div> -->
+        
     </header>
+    
 
-<!-- seccion de cards productos -->
-
-
-
-    <!-- <section>
-        <div class="card-container">
-            <li class="card">
-                <img src="/img/kaiak.fem.jpeg" alt="kaiak femenino">
-                <h3>Kaiak femenino</h3>
-                <p>descripcion</p>
-
-            </li>
-            <li class="card">
-                <img src="/img/kaiak.fem.jpeg" alt="kaiak femenino">
-                <h3>Kaiak femenino</h3>
-                <p>descripcion</p>
-
-            </li>
-            <li class="card">
-                <img src="/img/kaiak.fem.jpeg" alt="kaiak femenino">
-                <h3>Kaiak femenino</h3>
-                <p>descripcion</p>
-
-            </li>
-            <li class="card">
-                <img src="/img/kaiak.fem.jpeg" alt="kaiak femenino">
-                <h3>Kaiak femenino</h3>
-                <p>descripcion</p>
-
-            </li>
-            <li class="card">
-                <img src="/img/kaiak.fem.jpeg" alt="kaiak femenino">
-                <h3>Kaiak femenino</h3>
-                <p>descripcion</p>
-
-            </li>
-        </div>
-    </section> -->
-
-    <script src="JavaScript/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/main.js"></script>
+    
     
 </body>
 </html>
